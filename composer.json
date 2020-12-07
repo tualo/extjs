@@ -1,0 +1,20 @@
+{
+    "name": "tualo/extjs",
+    "description": "ExtJS Wrapper for tualo office",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Thomas Hoffmann",
+            "email": "thomas.hoffmann@tualo.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "tualo\\Office\\ExtJS\\": "src/"
+        },
+        "files": ["src/functions.php"]
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
