@@ -15,6 +15,12 @@ class JS implements IMiddleware{
                     [],
                     -100 
                 );
+                TualoApplication::javascript( 
+                    'cmp_ext_locale', 
+                    './extjs/locale.js',
+                    [],
+                    -100 +1000
+                );
             }catch(Exception $e){
                 TualoApplication::set('maintanceMode','on');
                 TualoApplication::addError($e->getMessage());
