@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "tualo\\Office\\ExtJS\\": "src/"
+            "Tualo\\Office\\ExtJS\\": "src/"
         },
         "files": ["src/functions.php"]
     },
